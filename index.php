@@ -12,7 +12,7 @@ if (array_key_exists('route', $_GET)) {
 
         case 'api':
 
-            require_once 'layout.html';
+            echo 'hey';
             break;
     }
 } else {
